@@ -1,11 +1,11 @@
 const listaDeProdutos = () => {
-    return fetch("http://localhost:3000/produtos")
+    return fetch("https://6684917256e7503d1ae09162.mockapi.io/produtos")
     .then((resposta) => resposta.json())
     .catch((erro) => console.log(erro));
 };
 
 const criaProduto = (nome, valor, imagem) => {
-    return fetch("http://localhost:3000/produtos", {
+    return fetch("https://6684917256e7503d1ae09162.mockapi.io/produtos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -21,7 +21,7 @@ const criaProduto = (nome, valor, imagem) => {
 }
 
 const deletaProduto = (id) => {
-    return fetch(`http://localhost:3000/produtos/${id}`, {
+    return fetch(`https://6684917256e7503d1ae09162.mockapi.io/produtos/${id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json",
