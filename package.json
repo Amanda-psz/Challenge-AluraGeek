@@ -4,7 +4,8 @@
   "description": "Challenge AluraGeek",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch ./database/db.json --port 3000"
+    "start": "json-server --watch ./database/db.json --port 3000",
+    "dev": ""
   },
   "keywords": [],
   "author": "",

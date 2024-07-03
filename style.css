@@ -74,6 +74,8 @@ h1 {
     flex-wrap: wrap;
     gap: 30px;
     margin: 20px 0px;
+    overflow: auto;
+    max-height: 60vh;
 }
 
 .card {
