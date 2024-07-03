@@ -79,7 +79,7 @@ h1 {
 }
 
 .card {
-    width: calc(100%/3 - 30px);
+    width: calc(100%/4 - 30px);
     padding: 10px;
     background-image: url("imagens/fundo-metal.jpeg");
     background-repeat: no-repeat;
