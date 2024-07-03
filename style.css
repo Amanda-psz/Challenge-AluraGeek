@@ -81,11 +81,10 @@ h1 {
 .card {
     width: calc(100%/3 - 30px);
     padding: 10px;
-    background-image: url("imagens/fundo-metalico.jpeg");
+    background-image: url("imagens/fundo-metal.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
-    border: 4px solid #e9d0d0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,8 +184,8 @@ h1 {
 }
 
 .botao-enviar {
-    background-image: url("imagens/fundo-prata.jpeg");
-    color: #ffffff;
+    background-image: url("imagens/fundo-metal.jpeg");
+    color: #40434a;
     border: none;
 }
 
